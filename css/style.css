@@ -99,6 +99,16 @@ a {
     text-align: center;
 }
 
+.contactos label{
+    width: 190px;
+    background-color: #530101;
+    color: white;
+}
+
+.contactos textarea{
+    box-shadow: 0px 0px 17px 5px #530101; 
+}
+
 .footer{
     margin-top: auto;
     background-color: #530101;
