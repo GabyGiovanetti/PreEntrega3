@@ -128,13 +128,17 @@ a {
     height: 100%;
 }
 
-
+/*borde a las imagenes*/ 
 .border-hover:hover{
     cursor: pointer;
 	box-shadow: 0px 0px 17px 5px #530101; 
 }
-
-
+/*borde a las categorias*/ 
+.categorias:hover{
+    color:#530101;
+    text-decoration-line: underline overline;
+    font-size: 35px;
+}
 
 
 /*responsive en tablet */ 
