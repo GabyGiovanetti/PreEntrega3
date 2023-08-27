@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+}
+html{
+    height: 100%;
+}
+
+body {
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.barra-inicio {
+    background-color: #530101;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.barra-inicio img {
+    width: 120px;
+    height: 100%;
+}
+
+
+.buscador {
+    height: 100%;
+    margin-right: 20px;
+}
+
+.imagen {
+    height: 80px;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(243, 243, 243);
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 10px;
+
+}
+
+.img-carril {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-carril img {
+    height: 200px;
+    width: 150px;
+    margin: 30px;
+    max-width: 150px;
+}
+
+.peli-carril {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.peli1 {
+    margin-top: 60px;
+
+}
+
+.peli2 {
+    margin-top: 60px;
+    margin-left: 10px;
+}
+
+.peli3 {
+    margin-top: 60px;
+    margin-left: 10px;
+}
+
+
+.categorias-contenedor {
+    margin-top: 50px;
+}
+
+.categorias {
+    color: rgb(241, 241, 241);
+    display: block;
+    margin-bottom: 30px;
+}
+
+.contactos {
+    margin-top: 45px;
+    text-align: center;
+}
+
+.footer{
+    margin-top: auto;
+    background-color: #530101;
+    text-align: center;
+}
+
+.pie {
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.grilla-explicita{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 300px;
+    justify-content: center;
+}
+
+.grilla-explicita div{
+    margin-top: 15px;
+    margin-right: 10px;   
+}
+
+.grilla-explicita div img{
+    width: 100%;
+    height: 100%;
+}
+
+/*responsive en tablet */ 
+@media (max-width:768px){
+
+    .grilla-explicita{
+        display: grid;
+        grid-template-columns: 200px 200px ;
+        grid-template-rows: 300px;
+        justify-content: center;
+    }
+
+}
+
+/*responsive en celular */ 
+@media (max-width:600px){
+
+    .grilla-explicita{
+        display: grid;
+        grid-template-columns: 200px  ;
+        grid-template-rows: 300px;
+        justify-content: center;
+    }
+
+}
