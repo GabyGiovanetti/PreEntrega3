@@ -15,17 +15,7 @@ body {
     min-height: 100%;
 }
 
-.barra-inicio {
-    background-color: #530101;
-    display: flex;
-    justify-content: space-between;
 
-}
-
-.barra-inicio img {
-    width: 120px;
-    height: 100%;
-}
 
 
 .buscador {
@@ -48,19 +38,7 @@ a {
 
 }
 
-.img-carril {
-    width: 100%;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-}
 
-.img-carril img {
-    height: 200px;
-    width: 150px;
-    margin: 30px;
-    max-width: 150px;
-}
 
 .peli-carril {
     margin-top: 20px;
@@ -128,6 +106,7 @@ a {
     justify-content: center;
 }
 
+/*GRID*/ 
 .grilla-explicita div{
     margin-top: 15px;
     margin-right: 10px;   
@@ -147,9 +126,12 @@ a {
 .categorias:hover{
     color:#530101;
     text-decoration-line: underline overline;
-    font-size: 35px;
+    
 }
 
+.efecto:hover{
+    color: gray;
+}
 
 /*responsive en tablet */ 
 @media (max-width:768px){

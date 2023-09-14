@@ -1,0 +1,50 @@
+.barra-inicio {
+    background-color: #530101;
+    display: flex;
+    justify-content: space-between;
+    img {
+        width: 120px;
+        height: 100%;
+    }
+}
+
+
+.img-carril {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    img {
+        height: 200px;
+        width: 150px;
+        margin: 30px;
+        max-width: 150px;
+    }
+}
+
+
+.contactos {
+    margin-top: 45px;
+    text-align: center;
+    label{
+        width: 190px;
+        background-color: #530101;
+        color: white;
+    }
+    textarea{
+        box-shadow: 0px 0px 17px 5px #530101; 
+    }
+}
+
+.grilla-explicita div{
+    margin-top: 15px;
+    margin-right: 10px;   
+    div{
+        margin-top: 15px;
+        margin-right: 10px;   
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
